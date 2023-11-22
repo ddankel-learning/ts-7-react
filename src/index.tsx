@@ -1,5 +1,6 @@
 // 1) Import ReactDOM library
 import ReactDOM from "react-dom/client";
+import Parent from "./props/Parent";
 
 // 2) Get a reference to the div with ID root
 const el = document.getElementById("root");
@@ -12,6 +13,9 @@ const App = () => {
   return (
     <div>
       <h1>Hi there!</h1>
+      <hr/>
+      <h2>Props</h2>
+      <Parent/>
     </div>
   );
 };
