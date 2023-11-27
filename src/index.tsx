@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Parent from "./props/Parent";
 import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSearch";
+import EventComponent from "./events/EventComponent";
 
 // 2) Get a reference to the div with ID root
 const el = document.getElementById("root");
@@ -25,6 +26,8 @@ const App = () => {
       <h2>State Part 2</h2>
       <UserSearch />
       <hr />
+      <h2>Events</h2>
+      <EventComponent />
     </div>
   );
 };
