@@ -4,6 +4,7 @@ import Parent from "./props/Parent";
 import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSearch";
 import EventComponent from "./events/EventComponent";
+import UserSEarchWithAutoFocus from "./refs/UserSearchWithAutoFocus";
 
 // 2) Get a reference to the div with ID root
 const el = document.getElementById("root");
@@ -28,6 +29,9 @@ const App = () => {
       <hr />
       <h2>Events</h2>
       <EventComponent />
+      <hr />
+      <h2>Refs</h2>
+      <UserSEarchWithAutoFocus />
     </div>
   );
 };
